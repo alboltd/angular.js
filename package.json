@@ -118,6 +118,7 @@
     "morgan": "1.12.1",
     "natives": "1.1.6",
     "plist": "3.1.1",
+    "protobufjs": "6.11.6",
     "set-value": "2.0.1",
     "shell-quote": "1.12.0",
     "underscore": "1.13.8",
