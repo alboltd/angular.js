@@ -111,7 +111,8 @@
     "//3": "`graceful-fs` needs to be pinned to support gulp 3, on Node v12+",
     "graceful-fs": "^4.2.3",
     "minimist": "0.2.4",
-    "natives": "1.1.6"
+    "natives": "1.1.6",
+    "xmlhttprequest-ssl": "1.6.3"
   },
   "scripts": {
     "commit": "git-cz",
