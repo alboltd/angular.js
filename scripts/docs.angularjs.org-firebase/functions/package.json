@@ -14,7 +14,8 @@
   "name": "functions",
   "private": true,
   "resolutions": {
-    "protobufjs": "6.11.6"
+    "protobufjs": "6.11.6",
+    "websocket-driver": "0.7.5"
   },
   "scripts": {
     "deploy": "firebase deploy --only functions",
