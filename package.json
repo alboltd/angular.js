@@ -113,6 +113,7 @@
     "growl": "1.10.5",
     "minimist": "0.2.4",
     "natives": "1.1.6",
+    "plist": "3.1.1",
     "xmlhttprequest-ssl": "1.6.3"
   },
   "scripts": {
