@@ -115,6 +115,7 @@
     "minimist": "0.2.4",
     "morgan": "1.12.1",
     "natives": "1.1.6",
+    "plist": "3.1.1",
     "underscore": "1.13.8",
     "xmlhttprequest-ssl": "1.6.3"
   },
