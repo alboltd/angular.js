@@ -1,23 +1,16 @@
 {
-  "name": "angular",
-  "license": "MIT",
-  "branchVersion": "^1.8.0",
   "branchPattern": "1.8.*",
-  "distTag": "next",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/angular/angular.js.git"
+  "branchVersion": "^1.8.0",
+  "commitplease": {
+    "nohook": true,
+    "style": "angular"
   },
-  "engines": {
-    "node": ">=12.14.1",
-    "yarn": ">=1.21.1",
-    "grunt-cli": "^1.2.0"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   },
-  "scripts": {
-    "commit": "git-cz",
-    "test-i18n": "jasmine-node i18n/spec",
-    "test-i18n-ucd": "jasmine-node i18n/ucd/spec"
-  },
+  "dependencies": {},
   "devDependencies": {
     "angular-benchpress": "0.x.x",
     "benchmark": "1.x.x",
@@ -100,21 +93,29 @@
     "sorted-object": "^1.0.0",
     "stringmap": "^0.2.2"
   },
-  "dependencies": {},
+  "distTag": "next",
+  "engines": {
+    "grunt-cli": "^1.2.0",
+    "node": "\u003e=12.14.1",
+    "yarn": "\u003e=1.21.1"
+  },
+  "license": "MIT",
+  "name": "angular",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/angular.js.git"
+  },
   "resolutions": {
     "//1": "`natives@1.1.0` does not work with Node.js 10.x on Windows 10",
     "//2": "(E.g. see https://github.com/gulpjs/gulp/issues/2162 and https://github.com/nodejs/node/issues/25132.)",
-    "natives": "1.1.6",
     "//3": "`graceful-fs` needs to be pinned to support gulp 3, on Node v12+",
-    "graceful-fs": "^4.2.3"
+    "graceful-fs": "^4.2.3",
+    "minimist": "0.2.4",
+    "natives": "1.1.6"
   },
-  "commitplease": {
-    "style": "angular",
-    "nohook": true
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
+  "scripts": {
+    "commit": "git-cz",
+    "test-i18n": "jasmine-node i18n/spec",
+    "test-i18n-ucd": "jasmine-node i18n/ucd/spec"
   }
 }
